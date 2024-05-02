@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (Fri Apr 05 2024 14:50:15 GMT+0530 (India Standard Time))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"</h1>
+		<p>Generated at: Fri Apr 05 2024 14:50:15 GMT+0530 (India Standard Time)</p>
+
+		<p class="counts">
+			<span class="count error">13 errors</span>
+			<span class="count warning">0 warnings</span>
+			<span class="count notice">0 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result error">
+				<h2>Error: The html element should have a lang or xml:lang attribute which describes the language of the document.</h2>
+				<p>WCAG2A.Principle3.Guideline3_1.3_1_1.H57.2</p>
+				<pre>&lt;html&gt;&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;...&lt;/html&gt; (select with "html")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.InputText.Name</p>
+				<pre>&lt;input data-v-1f99f73c=&quot;&quot; class=&quot;oxd-input oxd-input--focus&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; autofocus=&quot;&quot;&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(3) &gt; form &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; input")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form field should be labelled in some way. Use the label element (either with a &quot;for&quot; attribute or wrapped around the form field), or &quot;title&quot;, &quot;aria-label&quot; or &quot;aria-labelledby&quot; attributes as appropriate.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F68</p>
+				<pre>&lt;input data-v-1f99f73c=&quot;&quot; class=&quot;oxd-input oxd-input--focus&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; autofocus=&quot;&quot;&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(3) &gt; form &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; input")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This passwordinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name</p>
+				<pre>&lt;input data-v-1f99f73c=&quot;&quot; class=&quot;oxd-input oxd-input--active&quot; type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot;&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(3) &gt; form &gt; div:nth-child(3) &gt; div &gt; div:nth-child(2) &gt; input")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form field should be labelled in some way. Use the label element (either with a &quot;for&quot; attribute or wrapped around the form field), or &quot;title&quot;, &quot;aria-label&quot; or &quot;aria-labelledby&quot; attributes as appropriate.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F68</p>
+				<pre>&lt;input data-v-1f99f73c=&quot;&quot; class=&quot;oxd-input oxd-input--active&quot; type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot;&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(3) &gt; form &gt; div:nth-child(3) &gt; div &gt; div:nth-child(2) &gt; input")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Anchor element found with a valid href attribute, but no link content has been supplied.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.NoContent</p>
+				<pre>&lt;a data-v-0af708be=&quot;&quot; href=&quot;https://www.linkedin.com/company/orangehrm/mycompany/&quot; target=&quot;_blank&quot;&gt;&lt;svg data-v-bddebfba=&quot;&quot; data-v-...&lt;/a&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(1)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Anchor element found with a valid href attribute, but no link content has been supplied.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.NoContent</p>
+				<pre>&lt;a data-v-0af708be=&quot;&quot; href=&quot;https://www.facebook.com/OrangeHRM/&quot; target=&quot;_blank&quot;&gt;&lt;svg data-v-bddebfba=&quot;&quot; data-v-...&lt;/a&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(2)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Anchor element found with a valid href attribute, but no link content has been supplied.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.NoContent</p>
+				<pre>&lt;a data-v-0af708be=&quot;&quot; href=&quot;https://twitter.com/orangehrm?lang=en&quot; target=&quot;_blank&quot;&gt;&lt;svg data-v-bddebfba=&quot;&quot; data-v-...&lt;/a&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(3)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Anchor element found with a valid href attribute, but no link content has been supplied.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.NoContent</p>
+				<pre>&lt;a data-v-0af708be=&quot;&quot; href=&quot;https://www.youtube.com/c/OrangeHRMInc&quot; target=&quot;_blank&quot;&gt;&lt;svg data-v-bddebfba=&quot;&quot; data-v-...&lt;/a&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(4)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element&#39;s role is &quot;presentation&quot; but contains child elements with semantic meaning.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F92,ARIA4</p>
+				<pre>&lt;svg data-v-bddebfba=&quot;&quot; data-v-0af708be=&quot;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 500 500&quot; role=&quot;presentation&quot; class=&quot;oxd-icon orangehrm-sm-icon&quot;&gt;&lt;g fill=&quot;currentColor&quot;&gt;&lt;path da...&lt;/svg&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(1) &gt; svg")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element&#39;s role is &quot;presentation&quot; but contains child elements with semantic meaning.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F92,ARIA4</p>
+				<pre>&lt;svg data-v-bddebfba=&quot;&quot; data-v-0af708be=&quot;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 500 500&quot; role=&quot;presentation&quot; class=&quot;oxd-icon orangehrm-sm-icon&quot;&gt;&lt;g fill=&quot;currentColor&quot;&gt;&lt;path da...&lt;/svg&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(2) &gt; svg")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element&#39;s role is &quot;presentation&quot; but contains child elements with semantic meaning.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F92,ARIA4</p>
+				<pre>&lt;svg data-v-bddebfba=&quot;&quot; data-v-0af708be=&quot;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 500 500&quot; role=&quot;presentation&quot; class=&quot;oxd-icon orangehrm-sm-icon&quot;&gt;&lt;g fill=&quot;currentColor&quot;&gt;&lt;path da...&lt;/svg&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(3) &gt; svg")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element&#39;s role is &quot;presentation&quot; but contains child elements with semantic meaning.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F92,ARIA4</p>
+				<pre>&lt;svg data-v-bddebfba=&quot;&quot; data-v-0af708be=&quot;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 500 500&quot; role=&quot;presentation&quot; class=&quot;oxd-icon orangehrm-sm-icon&quot;&gt;&lt;g fill=&quot;currentColor&quot;&gt;&lt;path da...&lt;/svg&gt; (select with "#app &gt; div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div:nth-child(1) &gt; a:nth-child(4) &gt; svg")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axe-core": "^4.8.4",
+    "axe-html-reporter": "^2.2.3",
+    "expect-puppeteer": "^10.0.0",
+    "html-reporter": "^9.17.0",
+    "json2html": "^0.0.8",
+    "pa11y": "^7.0.0",
+    "pa11y-reporter-html": "^2.0.0",
+    "playwright": "^1.42.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.30"
+  },
+  "scripts": {}
+}
